@@ -1,0 +1,10 @@
+services:
+#  menu_link_field.normalizer.list:
+#    class: Drupal\menu_link_field\Normalizer\MenuLinkFieldListNormalizer
+#    tags:
+#      - { name: normalizer, priority: 100 }
+
+  menu_link_field.normalizer:
+    class: Drupal\menu_link_field\Normalizer\MenuLinkFieldNormalizer
+    tags:
+      - { name: normalizer, priority: 15 }
