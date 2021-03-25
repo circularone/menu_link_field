@@ -1,6 +1,5 @@
 name: 'Menu Link Field'
 type: module
 description: 'Adds a field type allowing selection of a menu and a menu item within the selected menu'
-core: 8.x
 core_version_requirements: ^8.0 || ^9
 package: 'Spider Online'
